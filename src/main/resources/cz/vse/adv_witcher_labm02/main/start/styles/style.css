@@ -1,0 +1,50 @@
+/* === Map Item Style === */
+.map-item {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.5, 2, 2);
+    -fx-cursor: hand;
+    -fx-opacity: 0.9;
+}
+
+.map-item:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(gaussian, #ffffff, 12, 0.7, 0, 0);
+}
+
+/* === Button Style === */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #5a2e0f, #3b1d0a);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: #c49b66;
+    -fx-border-width: 1px;
+    -fx-background-radius: 8;
+    -fx-padding: 6 12 6 12;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #7e3e15, #2e1507);
+    -fx-effect: dropshadow(gaussian, white, 4, 0.5, 0, 0);
+}
+
+/* === TextArea Styling === */
+.text-area {
+    -fx-font-family: "Georgia", serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1a1a1a;
+}
+
+/* === TextField Styling === */
+.text-field {
+    -fx-background-color: #2c2c2c;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+}
+
+/* === List Cell Styling (Exits Panel) === */
+.list-cell {
+    -fx-font-family: "Palatino Linotype";
+    -fx-font-size: 14px;
+}
